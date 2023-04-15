@@ -8,17 +8,15 @@ export const Layout = () => {
       <ul className={css.LayoutUl}>
         <li className={css.LayoutIl}>
           <NavLink className={css.LayoutIl} to="/">
-            <a className={css.Text}>Home</a>
+            Home
           </NavLink>
         </li>
         <li className={css.LayoutIl}>
           <NavLink className={css.LayoutIl} to="/movies">
-            <a className={css.Text}>Movies</a> 
+            Movies
           </NavLink>
         </li>
       </ul>
-
-      
       <Suspense fallback={<div>Loading...</div>}>
         <Outlet />
       </Suspense>
