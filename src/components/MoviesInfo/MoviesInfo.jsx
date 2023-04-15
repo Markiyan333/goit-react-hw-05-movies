@@ -22,4 +22,6 @@ const MoviesInfo = ({ movie }) => {
 };
 export default MoviesInfo;
 
+
+
 MoviesInfo.propTypes = { movie: PropTypes.object.isRequired };
